@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.box {
+    width: 1000px;
+    height: 615px;
+    background: #fff;
+}
+
+.boxDireita {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 675px;
+    height: 615px;
+    float: right;
+    background-color: #9e44a6;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+.boxEsquerda {
+    width: 195px;
+    height: 615px;
+    float: left;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxEsquerdaIcone {
+    width: 65px;
+    height: 615px;
+    float: left;
+    background-color: #FFFFFF;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.setaEsquerda{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.imagem {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+    align-items: center;
+    border-right: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rowDiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.row1 {
+    width: 240px;
+}
+
+.row2 {
+    width: 240px;
+}
+
+label {
+    color: rgba(0, 0, 0, .8);
+    margin-top: 1px;
+}
+
+.inputProfile {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 5px;
+    width: 240px;
+}
+
+.inputAvatar {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 5px;
+    width: 594px;
+}
+
+select {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 5px;
+    width: 240px;
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.icone {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.userLabel {
+    align-items: top;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.profileTextarea {
+    height: 100px;
+    width: 594px;
+    padding: 19px 35px 0 35px;
+}
+
+.profileButton {
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background-color: #827ffe;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    border-radius: 12px;
+    margin-left: 255px;
+    color: white;
+    font: bold;
+}
+
+.rowDiv1 {
+    align-items: center;
+}
+
+.cartoes {
+    height: 400px;
+    width: 300px;
+    background-color: #FFFFFF;
+    float: left;
+    margin-top: 30px;
+    border-radius: 8px;
+    
+}
+
+.lista {
+    list-style: none;
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+}
+
+.footerprofile {
+    flex: 1;
+    background: #FFFFFF;
+    padding: 15px 20px;
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+}
+
+.container ul li footer strong{
+    font-size: 16px;
+    color: #333;
+}
+
+.container ul li footer p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    margin-bottom: 2px;
+    margin-top: 1px;
+}
+
+.empty{
+    font-size: 32px;
+    color: #999;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
