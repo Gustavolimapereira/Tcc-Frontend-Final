@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
 .container {
-    max-width: 980px;
+    max-width: 980px !important;
     margin: 0 auto;
     padding: 50px 0;
     text-align: center;
